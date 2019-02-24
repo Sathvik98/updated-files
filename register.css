@@ -1,0 +1,65 @@
+body{
+    color: rgb(0, 38, 255);
+    margin-top: 00px;border: none;
+    text-align: center;
+}
+.Register{
+    background:url('../img/r1.jpg');
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 160%;
+}
+#cancel{
+    margin-right: 20px;
+
+}
+
+.Registerbox{
+    width: 400px;
+    height: 850px; 
+    background:rgba(219, 203, 203, 0.5);
+    color:rgb(20, 14, 15);
+    margin-top:35%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding :70px 30px;
+    box-shadow: 0 2px 2px;
+    border-radius: 20px;
+    text-align: center;
+}
+#heading3{
+    margin-top: -5%;
+    text-align: center;
+    color: black;
+} 
+input{
+    border: none;
+    border-bottom:1px solid #000;
+    background: transparent;
+    outline:none;
+    padding: 5px; 
+    width: 300px;
+    height:40px;
+    color:rgb(15, 1, 1);
+    font-size:16px;
+    font-weight: bold;   
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:rgb(247, 11, 11);
+    text-align: left;
+    font-weight: 450;
+  }
+::placeholder{
+    color:black;
+    text-align: left;
+    font-weight: 700;
+}
+
+/* body {
+    margin: 0%; 
+    padding: 0%; 
+    background: url(); 
+} */

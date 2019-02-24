@@ -1,0 +1,22 @@
+#signout1
+{   text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+} 
+.title2{
+    margin-top: 0%;
+    margin-left: 0%;
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+}
+.body2{
+    background-attachment: fixed;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 220px;
+}
+.angan1{
+    background: url('../img/court1.jpg');
+}

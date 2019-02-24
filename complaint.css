@@ -1,0 +1,88 @@
+/* *{
+    margin: 0;
+    padding:0;
+    font-family: "montserrat",sans-serif;
+} */
+/* #images
+{
+    top:70%;
+} */
+
+body {
+    margin: 0%; 
+    padding: 0%; 
+}
+#text{
+    margin-left:30%;
+    width: 50%;
+    margin-top: 0%
+    
+}
+.complaint-section{
+    background: url('../img/complaintbg.png');;
+    background-size:cover;
+    padding :40px 0;
+    
+}
+#imag{
+    margin-left: 65%;
+}
+
+a {
+    
+    color: black; 
+}
+
+/* .photo{
+    text-align: right;
+} */
+.complaint-section h1{
+    text-align: center;
+    color:#ddd;
+}
+.border{
+    width:100px;
+    height:10px;
+    background: #34495e;
+    margin:40px auto;
+}
+/* .complaint-form{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+} */
+.complaint-form-text{
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    margin:16px 0;
+    border:0;
+    background: #111;
+    padding:20px 40px;
+    outline:none;
+    color:#ddd;
+    transition:0.5s;
+}
+.complaint-form-text:hover{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.complaint-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.complaint-form-btn{
+    float:right;
+    border:0;
+    background:#34495e;
+    color:#fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.complaint-form-btn:hover{
+    background: #2980b9;
+
+}
